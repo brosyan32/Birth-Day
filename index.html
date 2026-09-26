@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>С Днём Рождения!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="intro">
+  <h1>С Днём Рождения! 🎉</h1>
+  <p id="hint">Наведи курсор на подарок…</p>
+  <div class="boxOuter">
+  <div id="boxwrap">
+    <div class="bow"><div class="bowloop l"></div><div class="bowloop r"></div><div class="bowknot"></div></div>
+    <div class="lid"></div>
+    <div class="boxbody"></div>
+  </div>
+  </div>
+  <div class="cakeWrap" id="cakeIntro"></div>
+  <div class="catWrap" id="catIntro"></div>
+</div>
+
+<div id="game">
+  <div class="moon"></div>
+  <svg class="hill back" viewBox="0 0 400 90" preserveAspectRatio="none"><path d="M0,90 L0,40 Q100,0 200,35 T400,30 L400,90 Z"/></svg>
+  <svg class="hill front" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M0,60 L0,30 Q120,55 220,20 T400,25 L400,60 Z"/></svg>
+  <div id="ground"></div>
+  <div id="topbar">
+    <div id="score">Монеты: 0 / 18</div>
+    <div id="gamehint">Пробел / ↑ / тап — прыжок, лови монетки</div>
+  </div>
+  <div id="runner"><div class="catWrap" id="catRunner"></div></div>
+  <div id="winscreen">
+    <div id="catbigwrap"></div>
+    <h1>С Днём Рождения, друг! 🎂💖</h1>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
